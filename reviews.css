@@ -1,0 +1,21 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: blac
+}
+
+body {
+    overflow-x: hidden;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.checked {
+    color: orange;
+}
+
+.review-image {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
