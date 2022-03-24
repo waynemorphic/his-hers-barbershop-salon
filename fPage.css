@@ -24,3 +24,7 @@ body {
     font-size: px;
     font-family: 'Times New Roman', Times, serif;
 }
+
+#booked-date {
+    display: none;
+}
