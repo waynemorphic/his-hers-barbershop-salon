@@ -28,3 +28,7 @@ body {
 #booked-date {
     display: none;
 }
+
+ul li a:hover{
+    color: green;
+}
