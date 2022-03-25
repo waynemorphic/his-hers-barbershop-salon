@@ -17,6 +17,26 @@
 
 <body>
     <div class="container-fluid">
+
+        <ul class="nav nav-pills justify-content-right;">
+            <li style='background-color: bisque; font-size: 1.5rem; margin-right: 2%; border-radius: 50px;'class="nav-item">
+                <a  class="nav-link" href="home.html">HOME</a>
+            </li>
+            <li style='background-color: bisque; font-size: 1.5rem; margin-right: 2%; border-radius: 50px;'class="nav-item">
+                <a class="nav-link" href="gallery.html">GALLERY</a>
+            </li>
+            <li style='background-color: bisque; font-size: 1.5rem; margin-right: 2%; border-radius: 50px;'class="nav-item">
+                <a class="nav-link" href="contact.html">CONTACT</a>
+            </li>
+            <li style='background-color: bisque; font-size: 1.5rem; margin-right: 2%; border-radius: 50px;' class="nav-item">
+                <a class="nav-link" href="reviews.html">REVIEWS</a>
+            </li>
+            <li style='background-color: bisque; font-size: 1.5rem; margin-right: 2%; border-radius: 50px;'class="nav-item">
+                <a class="nav-link" href="gallery.html">GALLERY</a>
+            </li>
+             <!-- <button type="submit" id='book-date' class="btn btn-primary" >BOOK DATE</button> -->
+        </ul>
+
         <h3 style="text-align: center; margin-top: 7px;">REVIEWS</h3>
         <div class="row">
             <div class="col">
@@ -108,6 +128,24 @@
                 </div>
             </div>
         </div>
+        <section id='contact'>
+            <div class="container" id="contact" style="margin-top: 100px;">
+                <h3>LEAVE A REVIEW</h3>
+                <div class="for">
+                    <form action="" method="" id="form" onsubmit="" style="color: white;">
+                        <label for="fname"></label>
+                        <input type="text" id="name" name="name" placeholder="Name..." required style="color: white;">
+    
+                        <label for="lname"></label>
+                        <input type="text" id="email" name="email" placeholder="Email..." required style="color: white;"><br><br>
+    
+                        <label for="subject"></label>
+                        <textarea id="subject" name="subject" placeholder=" Write Your message here" style="height:100px; width: 510px; color: white;" required></textarea><br><br>
+                        <input type="submit" value="Submit" id="submit">
+                    </form>
+                </div>
+            </div>
+        </section>
     </div>
 <script src="/reviews.js"></script>
 </body>
